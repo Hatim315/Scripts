@@ -1,6 +1,4 @@
                                                 #Email Extracter
-
-
 import re
 st=input()  #Taking Input
 q=re.findall(r'\w+@\S+\w',st)  #finding any sentence with  word or number with @ in it and with no space 
